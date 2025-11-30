@@ -1,4 +1,3 @@
-#./TECHproject/bin/python "19_PlottingSMOOTHFullTrackingandCoordinates copy.py"
 
 import cv2
 import numpy as np
