@@ -37,7 +37,7 @@ Again, after opening an Unreal Engine project:
 - Tools
   - Execute Python Script
 
-This script will populate the Sequence created with __2.UnrealSequenceAndCamera.py__ with the coordinates files from the video recorded with __1_OpenCV_Smooth_Tracker__
+This script will populate the Sequence created with __2_UnrealSequenceAndCamera.py__ with the coordinates files from the video recorded with __1_OpenCV_Smooth_Tracker__
 
 
 ## 4_ExtractingCoordinatesFromUnrealAndNormalise
@@ -48,5 +48,5 @@ Again, after opening an Unreal Engine project:
 - Tools
   - Execute Python Script
 
-This script will extract the coordinates from the Unreal Engine Sequence created with __2.UnrealSequenceAndCamera.py__ and __1_OpenCV_Smooth_Tracker__ and normalises them.\
+This script will extract the coordinates from the Unreal Engine Sequence created with __2_UnrealSequenceAndCamera.py__ and __1_OpenCV_Smooth_Tracker__ and normalises them.\
 This is good to plot anc compare the coordinates from different tracking systems.
