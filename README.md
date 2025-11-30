@@ -20,7 +20,7 @@ The first script:
   - Camera_coordinates.txt (raw camera trajectory)
   - running_avg_coordinates.txt (smoothed trajectory)
 
-## 2.UnrealSequenceAndCamara
+## 2.UnrealSequenceAndCamera
 The second script is meant to be run from Unreal Engine.
 
 After opening an Unreal Engine project:
@@ -38,7 +38,7 @@ Again, after opening an Unreal Engine project:
 - Tools
   - Execute Python Script
 
-This script will populate the Sequence created with __2.UnrealSequenceAndCamara.py__ with the coordinates files from the video recorded with __1_OpenCV_Smooth_Tracker__
+This script will populate the Sequence created with __2.UnrealSequenceAndCamera.py__ with the coordinates files from the video recorded with __1_OpenCV_Smooth_Tracker__
 
 
 ## 4.ExtractingCoordinatesFromUnrealAndNormalise
@@ -49,5 +49,5 @@ Again, after opening an Unreal Engine project:
 - Tools
   - Execute Python Script
 
-This script will extract the coordinates from the Unreal Engine Sequence created with __2.UnrealSequenceAndCamara.py__ and __1_OpenCV_Smooth_Tracker__ and normalises them.\
+This script will extract the coordinates from the Unreal Engine Sequence created with __2.UnrealSequenceAndCamera.py__ and __1_OpenCV_Smooth_Tracker__ and normalises them.\
 This is good to plot anc compare the coordinates from different tracking systems.
