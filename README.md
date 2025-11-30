@@ -1,5 +1,9 @@
 # Camera-Tracking-Systems-and-their-Democratisation
-This project, which won the SMPTE 2024 Student Paper of the Year, evaluates free, publicly available camera-tracking tools and compares them with a custom OpenCV-based tracker. It also analyses how noise and resolution influence tracking performance.
+This project, which won the SMPTE 2024 Student Paper of the Year, evaluates free, publicly available camera-tracking tools and compares them with a custom OpenCV-based tracker. It also analyses how noise and resolution influence tracking performance.\
+
+The motivation, methodology and outputs of this project are discussed in the papper __Camera Tracking Systems and their Democratisation__.\
+Reading the paper is recomended before experimenting with the scripts below.
+For example videos of the tracking output follow [this Link](https://drive.google.com/drive/folders/1cseqY5Spty1Kzi8FG00lxmJGFAsL__Nf?usp=share_link)
 
 ## 1_OpenCV_Smooth_Tracker
 The first script:
