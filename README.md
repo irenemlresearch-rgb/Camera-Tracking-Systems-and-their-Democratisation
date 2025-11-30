@@ -19,7 +19,7 @@ The first script:
   - Camera_coordinates.txt (raw camera trajectory)
   - running_avg_coordinates.txt (smoothed trajectory)
 
-## 2.UnrealSequenceAndCamera
+## 2_UnrealSequenceAndCamera
 The second script is meant to be run from Unreal Engine.
 
 After opening an Unreal Engine project:
@@ -29,7 +29,7 @@ After opening an Unreal Engine project:
 This script creates a camera and a sequence in your Unreal Project.\
 The sequence is vital for further steps.
 
-## 3.InsertCoordinatesToUnreal
+## 3_InsertCoordinatesToUnreal
 
 The third script is meant to be run from Unreal Engine.
 
@@ -40,7 +40,7 @@ Again, after opening an Unreal Engine project:
 This script will populate the Sequence created with __2.UnrealSequenceAndCamera.py__ with the coordinates files from the video recorded with __1_OpenCV_Smooth_Tracker__
 
 
-## 4.ExtractingCoordinatesFromUnrealAndNormalise
+## 4_ExtractingCoordinatesFromUnrealAndNormalise
 
 The third script is meant to be run from Unreal Engine.
 
